@@ -239,5 +239,7 @@ gaps outer 2
 gaps inner 2
 default_border pixel 1
 
+for_window [class=".*"] floating enable
+
 
 include /etc/sway/config.d/*
