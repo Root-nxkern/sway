@@ -16,7 +16,7 @@ set $menu wmenu-run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /run/current-system/sw/share/backgrounds/sway/)
-output * bg ./wallpapers/esdeath.jpg fill
+output * bg ./wallpapers/cherr.jpg fill
 #
 # Example configuration:
 #
