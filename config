@@ -213,6 +213,7 @@ bindsym $mod+r mode "resize"
 
     bindsym --whole-window Ctrl+button1 exec wooz --zoom-in 25% --mouse-track --map-close x
     bindsym $mod+p exec swaylock
+    bindsym $mod+Shift+y exec fastNotes
 
 
 #
