@@ -212,8 +212,9 @@ bindsym $mod+r mode "resize"
     bindsym $mod+Shift+m exec pactl list sinks | grep -q "Active Port: analog-output-speaker" && pactl set-sink-port @DEFAULT_SINK@ analog-output-headphones || pactl set-sink-port @DEFAULT_SINK@ analog-output-speaker
 
     bindsym --whole-window Ctrl+button1 exec wooz --zoom-in 25% --mouse-track --map-close x
-    bindsym $mod+p exec swaylock
     bindsym $mod+Shift+y exec fastNotes
+    bindsym $mod+o exec powerMenu
+    bindsym $mod+p exec recorder
 
 
 #
