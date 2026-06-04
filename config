@@ -215,7 +215,8 @@ bindsym $mod+r mode "resize"
     bindsym $mod+Shift+y exec fastNotes
     bindsym $mod+o exec powerMenu
     bindsym $mod+p exec recorder
-    bindsym $mod+Shift+p exec memos
+    bindsym $mod+Shift+p exec openProject 
+    bindsym $mod+Ctrl+p exec memos
 
 
 #
