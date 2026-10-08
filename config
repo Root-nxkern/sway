@@ -17,7 +17,7 @@ exec lxqt-policykit-agent
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /run/current-system/sw/share/backgrounds/sway/)
-output * bg ./wallpapers/linux.png fill
+output * bg ./wallpapers/robotwall.jpg fill
 #
 # Example configuration:
 #
@@ -218,6 +218,7 @@ bindsym $mod+r mode "resize"
     bindsym $mod+p exec recorder
     bindsym $mod+Shift+p exec openProject 
     bindsym $mod+Ctrl+p exec memos
+    bindsym $mod+Shift+t exec environment
 
 
 #
